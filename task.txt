@@ -1,0 +1,53 @@
+# регистраци€ 
+1 - поставить кнопку перехода к авторизации
+2 - настроить nginx на новую директорию
+3 - сделать переход на сайт авторизации и обратно
+5 - получить данные с формы регистрации и написать функции дл€ их тестировани€
+6- записать данные в Ѕƒ и перейти на основную форму
+
+
+import * as her from "./module";
+
+function sendAuthorization(){
+     console.log("he");
+     her.hello();
+     alert("ѕривет ещЄ раз, ћир!");
+     //запустить fetch - сделать http запрос на сервер и получить ответ пока в виде текста, его засунуть в HTML
+     //отправить данные с формы на сервер, обработать на сервере, отправить обратно
+     /*
+     fetch("http://diary/tor")
+     .then((response) => {
+          return response.text();
+     })
+     .then(function(data){
+          alert(data);
+          const errorLog = document.getElementById("error");
+          errorLog.hidden =  false;
+          errorLog.textContent = data;
+          
+     }
+     )
+     .catch((error) => console.log("Error"));
+     
+     let user = {
+          name: 'John',
+          surname: 'Smith'
+     };
+        
+    fetch("http://diary/getPost",{
+     method: 'POST',
+     headers: {
+       'Content-Type': 'application/json;charset=utf-8'
+     },
+     body: JSON.stringify(user)
+     }).then((response)=>{
+          return response.text();
+     })
+     .then(function(data){
+          alert(data);
+     })
+     .catch((error)=> console.log("error"));
+     */
+}
+
+}
